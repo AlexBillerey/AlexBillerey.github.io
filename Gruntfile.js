@@ -153,7 +153,7 @@ module.exports = function (grunt) {
             options: {
                 watchTask: true,
                 server: {
-                    baseDir: ["production"]
+                    baseDir: ["development"]
                 },
                 //browser: ["chrome", "firefox", "iexplore", "microsoft-edge" /*"ms edge"*/]
                 browser: ["chrome", "firefox"/*, "opera","microsoft-edge:http://localhost:3000"*/]
